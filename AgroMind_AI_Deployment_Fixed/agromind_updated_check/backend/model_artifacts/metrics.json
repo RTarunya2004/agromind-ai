@@ -1,0 +1,17 @@
+{
+  "architecture": "TabNet-inspired learned feature-mask generator + research Transformer encoder + classification head",
+  "note": "Reconstructed approximation, not exact pytorch-tabnet implementation; missing original TabNet checkpoint/library. Dataset may contain post-decision/leakage-prone crop attributes; scores are offline split metrics, not field performance.",
+  "checkpoint_tensors_loaded": 28,
+  "checkpoint_tensors_total": 28,
+  "best_validation_accuracy": 0.9997660818713451,
+  "test_accuracy": 0.9998830409356725,
+  "weighted_precision": 0.999883853151397,
+  "weighted_recall": 0.9998830409356725,
+  "weighted_f1": 0.9998830491133889,
+  "test_rows": 8550,
+  "classes": 57,
+  "feature_count": 80,
+  "epochs": 8,
+  "elapsed_seconds": 27.79,
+  "device": "cpu"
+}
